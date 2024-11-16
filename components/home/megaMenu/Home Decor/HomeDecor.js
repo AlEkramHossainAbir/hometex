@@ -83,14 +83,14 @@ const HomeDecor = () => {
                     </div>
                   </div>
                   {/* Popup Box */}
-                  {/* <div className="hidden absolute top-0 left-0 right-0 bottom-0 bg-white p-4 shadow-lg rounded-md opacity-0 group-hover:opacity-100 transition-all duration-300">
+                  <div className="hidden absolute top-0 left-0 right-0 bottom-0 bg-white p-4 shadow-lg rounded-md opacity-0 group-hover:opacity-100 transition-all duration-300">
                     <h2 className="text-lg font-bold mb-2">{section.title}</h2>
                     <ul>
                       {section.listItems.map((item, index) => (
                         <li key={index}>{item.name}</li>
                       ))}
                     </ul>
-                  </div> */}
+                  </div>
                 </div>
               ))}
             </div>
